@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolio_courses",
+  "info": {
+    "singularName": "portfolio-course",
+    "pluralName": "portfolio-courses",
+    "displayName": "Portfolio-Course"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "org": {
+      "type": "string"
+    },
+    "about": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

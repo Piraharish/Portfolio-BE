@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolio_educations",
+  "info": {
+    "singularName": "portfolio-education",
+    "pluralName": "portfolio-educations",
+    "displayName": "Portfolio-Education",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "educationData": {
+      "type": "json"
+    }
+  }
+}

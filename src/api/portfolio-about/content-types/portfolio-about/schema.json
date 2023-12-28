@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolio_abouts",
+  "info": {
+    "singularName": "portfolio-about",
+    "pluralName": "portfolio-abouts",
+    "displayName": "Portfolio-About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "About_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "aboutData": {
+      "type": "json"
+    },
+    "aboutParagraph": {
+      "type": "json"
+    }
+  }
+}

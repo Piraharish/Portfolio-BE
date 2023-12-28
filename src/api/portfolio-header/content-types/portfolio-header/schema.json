@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolio_headers",
+  "info": {
+    "singularName": "portfolio-header",
+    "pluralName": "portfolio-headers",
+    "displayName": "Portfolio-Header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "PDF": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "socialLinks": {
+      "type": "json"
+    }
+  }
+}
