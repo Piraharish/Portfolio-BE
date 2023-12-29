@@ -1,11 +1,13 @@
 module.exports = ({ env }) => ({
   upload: {
-    provider: "strapi-provider-upload-supabase",
-    providerOptions: {
-      baseUrl: env("SUPABASE_BASE_URL"),
-      bucketName: env("SUPABASE_BUCKET_NAME"),
-      apiKey: env("SUPABASE_API_KEY"),
-      directory:env("SUPABASE_DIRECTORY")
+    config: {
+      provider: "strapi-provider-upload-supabase",
+      providerOptions: {
+        apiUrl: env("SUPABASE_API_URL"),
+        apiKey: env("SUPABASE_API_KEY"),
+        bucket: env("SUPABASE_BUCKET"),
+        directory: env("SUPABASE_DIRECTORY"),
+      },
     },
   },
 });
